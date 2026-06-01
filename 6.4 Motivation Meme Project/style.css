@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#poster {
+    margin-top: 50px;
+}
+
+.meme-img {
+    border: solid white 5px;
+    width: 50%;
+    margin-left: 25%;
+}
