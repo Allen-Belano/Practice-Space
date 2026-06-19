@@ -16,10 +16,43 @@
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
       }
+
+      .pricing-container {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;  
+      }
+
+      .pricing-plan {
+        text-align: center;
+        background-color: #f2f2f2;
+      }
+
+      .plan-title {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .plan-price {
+        font-size: 32px;
+        font-weight: bold;
+      }
+
+      .plan-button {
+        padding: 10px;
+        background-color: #ff6600;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+      }
     </style>
   </head>
 
   <body>
+
     <div class="pricing-container">
       <div class="pricing-plan">
         <div class="plan-title">Basic</div>
@@ -31,6 +64,7 @@
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
+
       <div class="pricing-plan">
         <div class="plan-title">Standard</div>
         <div class="plan-price">$19.99/month</div>
@@ -41,6 +75,7 @@
         </ul>
         <button class="plan-button">Sign Up</button>
       </div>
+
       <div class="pricing-plan">
         <div class="plan-title">Premium</div>
         <div class="plan-price">$49.99/month</div>
@@ -52,5 +87,6 @@
         <button class="plan-button">Sign Up</button>
       </div>
     </div>
+
   </body>
 </html>
